@@ -1,0 +1,83 @@
+section
+{
+  background:yellow;
+}
+.banner
+{
+  background: #edeeef;;
+  min-height:200px;
+}
+.banner .row
+{
+  text-align:center;
+  margin-top:50px;
+}
+.banner h1
+{
+  color:black;
+}
+
+
+
+/***********************************************************************
+*  OPAQUE NAVBAR SECTION
+***********************************************************************/
+.opaque-navbar {
+    background-color: rgba(0,0,0,0);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+    color: black;
+}
+
+.opaque-navbar.opaque {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+    color: #edeeef;
+    box-shadow:0 12px 20px rgba(0,0,0,.6);
+}
+
+ul.dropdown-menu {
+    background-color: black;
+}
+
+
+@media (max-width: 992px) {
+  body
+  {
+    background: #edeeef;
+  }
+  .opaque-navbar {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+
+}
+
+.h1-front{
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 50%;
+  padding: 10px;
+  font-family: cursive;
+  font-size: 64px;
+}
+
+.bottom-nav{
+  background-color: black;
+  color: #edeeef;
+  height:200px; 
+  color: #edeeef;
+}
+
+.menu-itm{
+    font-size: 18px;
+    color: darkblue;
+}
+
+
+

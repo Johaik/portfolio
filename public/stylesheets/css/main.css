@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(214, 212, 212);
+}
+
+.mainBody{
+    background-color: rgb(224, 202, 175);
+    box-shadow: 12px 0 15px -4px rgba(224, 202, 175, 0.8), -12px 0 8px -4px rgba(224, 202, 175, 0.8);
+}
+
+p {
+    text-align: center;
+}
+
+.firstגBan{
+    width:110%;
+    top:-5%;
+    left:-5%;
+    transform:rotate(1deg);
+    box-shadow: 0 9px 0px 20px rgba(0,0,0,.3), 0 -9px 0px 20px rgba(0,0,0,.3), 12px 0 15px 20px rgba(0,0,0,.6), -12px 0 15px 20px rgba(0,0,0,.3);
+
+}
