@@ -10,7 +10,7 @@ app.use(express.static("public"));
 app.use(express.static("semantic"));
 
 app.get("/", function (req, res) {
-    res.render("index");
+    res.render("ibx");
 });
 
 app.listen(3000, "localhost", function () {
