@@ -23,6 +23,11 @@
     color: #484848;
   }
 
+  #holder{
+    color: rgb(255,248,220);  
+    font-weight: bold;
+  }
+
   .section {
     text-align: center;
   }
@@ -130,7 +135,7 @@
   }
 
   .header-links a:hover {
-    color: #FF6363 !important;
+    color: rgb(139,105,20) !important;
   }
 
   /* slide out nav menu styles */
@@ -208,7 +213,7 @@
   }
 
   .aboutme {
-    background: url("https://s3-us-west-2.amazonaws.com/files.bradengelhardt.com/brad-bg-main.jpg") no-repeat;
+    background: url("../../etc/backImg.jpg") no-repeat;
     background-size: cover;
   }
 
