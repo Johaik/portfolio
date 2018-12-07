@@ -44,6 +44,10 @@
     display: block;
   }
 
+  .navBarItams {
+    color: rgb(136, 48 , 0);
+  }
+
 
   /* flash alert styles */
 
@@ -92,7 +96,7 @@
   }
 
   .nav-brand img {
-    width: 50px;
+    width: 98px;
   }
 
   .fa-bars {
@@ -116,7 +120,7 @@
   }
 
   .header-links {
-   position: fixed;
+  position: fixed;
   width: 100%;
   z-index: 500;
   }
